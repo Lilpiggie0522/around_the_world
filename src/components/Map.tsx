@@ -1,6 +1,6 @@
 import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps';
 
-const geoUrl = "/world-countries.json";
+const geoUrl = `${import.meta.env.BASE_URL}/world-countries.json`;
 
 const cities = [
   { name: "Erenhot", coordinates: [111.9882, 43.6574] as [number, number], id: "erenhot" },

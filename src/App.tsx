@@ -9,9 +9,9 @@ function App() {
 
   return (
     <div className='flex flex-col justify-center items-center bg-slate-200'>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Header />
-        <Routes>
+        <Routes >
           <Route path="/" element={<Home />} />
           <Route path="/interest" element={<Interest />} />
           <Route path="/experience" element={<Experience />} />

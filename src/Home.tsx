@@ -17,7 +17,7 @@ export default function Home() {
     {
       id: "erenhot",
       photos: [{
-        src: "/home.jpeg",
+        src: "home.jpeg",
         description: "This is where I spent 17 years of my life - Erenhot, Inner Mongolia, China"
       }
       ]
@@ -26,7 +26,7 @@ export default function Home() {
       id: "melbourne",
       photos: [
         {
-          src: "/postie.jpg",
+          src: "postie.jpg",
           description: "Here is a photo of my first job working as a postie in Melbourne back in 2014"
         },
         {
@@ -39,7 +39,7 @@ export default function Home() {
       id: "canberra",
       photos: [
         {
-          src: "/propeller.jpg",
+          src: "propeller.jpg",
           description: "Here is a photo of my first properller overhaul, completed while working as an aircraft maintenance technician"
         },
 
@@ -49,19 +49,19 @@ export default function Home() {
       id: "sydney",
       photos: [
         {
-          src: "/morning.jpg",
+          src: "morning.jpg",
           description: "Here is a photo of my first morning shift working as a civil labourer in Western Sydney 4 am in the morning"
         },
         {
-          src: "/work.jpg",
+          src: "work.jpg",
           description: "Here is a photo of me digging the trentches"
         },
         {
-          src: "/project.jpg",
+          src: "project.jpg",
           description: "Here is a photo of the first decking project I helped build"
         },
         {
-          src: "/glass.jpg",
+          src: "glass.jpg",
           description: "Here is a photo of the first template I made working as a glass manufacturing technician"
         }
       ]
